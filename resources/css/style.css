@@ -238,7 +238,10 @@ header {
 /* --------------------------------*/
 
 
-
+.section-meals {
+    padding:  0;
+   
+}
 .meals-showcase {
     list-style: none;
     width: 100%;
@@ -276,8 +279,7 @@ header {
 
 
 .section-steps {
-    padding:  0;
-    /*background-color: #f4f4f4;*/
+        /*background-color: #f4f4f4;*/
 }
 .steps-box:first-child {
     text-align: right;
