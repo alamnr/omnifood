@@ -131,22 +131,6 @@ h2:after {
     margin-top: -5px;
     
 }
-/* ---------- Links  ----------   */
-
-a:link,
-a:visited {
-    color: #e67e22;
-    text-decoration: none;
-    border-bottom: 1px solid  #e67e22;
-    padding-bottom: 1px;
-    transition: border-bottom 0.2s, color 0.2s;
-}
-
-a:hover,
-a:active {
-    color: #555;
-    border-bottom: 1px solid transparent;
-}
 
 
 /*---- BUTTON ----*/
@@ -379,4 +363,21 @@ header {
 .city-feature {
     margin-bottom: 5px;
 }
+
+
+.city-feature a:link,
+.city-feature a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid  #e67e22;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.city-feature a:hover,
+.city-feature a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
 
